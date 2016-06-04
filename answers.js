@@ -1,13 +1,15 @@
 function answer_1() {
 
   document.getElementById("q1-answer").innerHTML = "<ul><li>D - Document</li><li>O - Object</li><li>M - Model</li></ul>";
+
 }
 
 
 
 function answer_2() {
 
-  document.getElementById("q2-answer").innerHTML = "1. Represent HTML file as an object so that javascript can easily access.</br> 2. Represented in a tree structure where the <html> tag is the root.</br>";}
+  document.getElementById("q2-answer").innerHTML = "1. Represent HTML file as an object so that javascript can easily access.</br> 2. Represented in a tree structure where the <html> tag is the root.</br>";
+}
 
 
 
@@ -20,7 +22,8 @@ function answer_3() {
 function answer_4() {
 
   var t=document.getElementsByClassName("q34-answer");
-  t[1].innerHTML = "<ul><li>document.getElementById : Returns an element with a given ID_NAME. Duplicate ID is not allowed in the HTML specification. </li><li>document.getElementsByClassName : Get a list of elements based on the class name.</li><li>document.getElementsByName : Get a list of elements based on the name. Name is generally used with input tag.</li><li>document.getElementsByTagName : Get a list of elements with the input tag name. </li></ul>";}
+  t[1].innerHTML = "<ul><li>document.getElementById : Returns an element with a given ID_NAME. Duplicate ID is not allowed in the HTML specification. </li><li>document.getElementsByClassName : Get a list of elements based on the class name.</li><li>document.getElementsByName : Get a list of elements based on the name. Name is generally used with input tag.</li><li>document.getElementsByTagName : Get a list of elements with the input tag name. </li></ul>";
+}
 
 
 
