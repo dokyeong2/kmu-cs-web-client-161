@@ -1,0 +1,161 @@
+/*미니 navigator */
+#mini_nav{
+ position: static;
+ text-align: right;
+ font-size: 12px;
+}
+
+ ul {
+ list-style-type: none;
+}
+
+.body{
+ background-color: #f8f9f9
+}
+
+/* 홈 상단 마트이름 */ 
+#homepage{
+ position: static;
+ margin: 0;
+}
+
+.title{
+ width:100%;
+ margin-bottom: 0;
+}
+
+
+/*상단 navigator */
+.navigator{
+ margin: 0;
+ padding: 0;
+ text-align: center;
+}
+
+ li{
+ display: inline;
+}
+
+.navigator  li a{
+ display: inline-block;
+ text-decoration: none;
+ font-size: 18px;
+ color: ForestGreen;
+ text-align: center;
+ padding: 20px;
+}
+
+.navigator li a:hover{
+ color: white;
+ background-color: ForestGreen;
+ font-weight: bold;
+}
+
+
+
+/*홈페이지 index */
+.index{
+ margin: 0;
+ padding:20px;
+ color: ForestGreen;
+ padding-right: 700px;
+ font-size: 15px;
+ font-weight: bold;
+}
+
+
+div {
+ margin-top: 5px;
+ text-align: center;
+ font-family: 나눔고딕;
+}
+
+
+/*상품*/
+.table_hot td:hover{
+ background-color: ForestGreen;
+ color:white;
+ font-weight: bold;
+}
+
+.sel_all{
+ margin-right: 900px;
+ margin-bottom: 10px;
+}
+
+
+
+
+/*회원가입 form */
+.table_join{
+ border: 1px solid black;
+ width: 600px;
+ height: 800px;
+}
+
+.tr_join:nth-child(even){
+ background-color: DarkSeaGreen;
+}
+
+summary{
+ color: LawnGreen;
+ padding-right: 500px;
+ font-weight: bold;
+}
+
+
+#join_span{
+ color: red;
+ padding-right: 400px;
+}
+
+
+.left {
+ text-align: right;
+ width: 120px;
+ padding: 10px;
+ height: 20px;
+
+}
+.right{
+ text-align: left;
+ height: 20px;
+ padding: 10px;
+}
+
+.explain{
+ color : red;
+}
+
+.but_sty {
+ padding: 5px 20px;
+}
+
+#scroll{
+ height: 20px;
+ overflow: scroll;
+}
+
+
+/*오시는 길 부분 */
+a{
+ text-decoration: none;
+}
+
+.more_map{
+ color: ForestGreen;
+ font-weight: bold;
+}
+
+.more_map:hover{
+ color: LawnGreen;
+}
+
+
+/* top으로 향하는 버튼 */
+.top{
+ position: fixed;
+ bottom: 20px;
+ right: 50px;
+ 
+}

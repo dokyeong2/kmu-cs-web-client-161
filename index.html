@@ -1,10 +1,195 @@
 <!DOCTYPE html>
 <html>
+<head>
+ <title><FRESH MART> 에 오신걸 환영합니다!</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
+ <ul id="mini_nav">
+   <li> 로그인 |</li>
+   <li> 회원가입 |</li>
+   <li> 장바구니 |</li>
+   <li> 주문배송조회 |</li>
+   <li> 고객센터</li>
+ </ul>
+ <div class="body">
 
-<h1>My First Heading</h1>
-Hi everynone!
-<p>My first paragraph.</p>
+ <div id= "homepage" >
+ <img src="title.png" class="title" ></img>
+ </div>
+  <ul class="navigator">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#hot">세일상품</a></li>
+    <li><a href="#all">전체상품</a></li>
+    <li><a href="#join">회원가입</a></li>
+    <li><a href="#direction">오시는길</a></li>
+  </ul>
+ <div id="hot">
+  <div class="index"> < < 지금 세일중인 상품 > > </div>
+  <table class="table_hot" align="center">
+    <tr>
+       <td> <img src="apple.jpg" width=200px height=200px> </td>
+       <td> <img src="papertowel.jpg" width=200px height=200px> </td>
+       <td> <img src="seje.jpg" width=200px height=200px> </td>
+       <td> <img src="cow.jpg" width=200px height=200px> </td>
+       <td> <img src="drink.jpg" width=200px height=200px> </td>
+   </tr>
+   <tr>
+       <td> 싱싱한 사과 </td>
+       <td> 휴지 12롤 </td>
+       <td> 주방세제 </td>
+       <td> 소고기 200g </td>
+       <td> 음료수 10종 </td>
+  </tr>
+  <tr>
+       <td> 3290원 </td>
+       <td> 8680원 </td>
+       <td> 7280원 </td>
+       <td> 12800원 </td>
+       <td> 800원 </td>
+   </tr>
+  </table>
+ </div>
 
+
+<!-- 전체상품~~~~~~~` --!>
+ <div id="all">
+  <div class="index"> < < 전체상품 > > </div>
+ <select class="sel_all">
+    <option> 과일 </option>
+    <option> 라면류 </option>
+    <option> 육류 </option>
+    <option> 유제품 </option>
+  </select>
+
+  <table class="table_hot" align="center">
+    <tr>
+       <td> <img src="apple.jpg" width=200px height=200px> </td>
+       <td> <img src="strawberry.jpg" width=200px height=200px> </td>
+       <td> <img src="banana.jpg" width=200px height=200px> </td>
+       <td> <img src="watermelon.jpg" width=200px height=200px> </td>
+       <td> <img src="orange.jpg" width=200px height=200px> </td>
+   </tr>
+   <tr>
+       <td> 싱싱한 사과 </td>
+       <td> 달콤한 딸기 </td>
+       <td> 바나나 </td>
+       <td> 시원한 수박 </td>
+       <td> 오렌지 </td>
+  </tr>
+  <tr>
+       <td> 3290원 </td>
+       <td> 12300원 </td>
+       <td> 3000원 </td>
+       <td> 14000원 </td>
+       <td> 1500원 </td>
+   </tr>
+    <tr>
+       <td> <img src="mandarin.jpg" width=200px height=200px> </td>
+       <td> <img src="grape.jpg" width=200px height=200px> </td>
+       <td> <img src="grapefruit.jpg" width=200px height=200px> </td>
+       <td> <img src="pineapple.jpg" width=200px height=200px> </td>
+       <td> <img src="mango.jpg" width=200px height=200px> </td>
+   </tr>
+   <tr>
+       <td> 제주 감귤 </td>
+       <td> 탱탱한 포도 </td>
+       <td> 상큼한 자몽 </td>
+       <td> 파인애플 </td>
+       <td> 달달한 망고 </td>
+  </tr>
+  <tr>
+       <td> 7600원 </td>
+       <td> 5000원 </td>
+       <td> 9600원 </td>
+       <td> 8500원 </td>
+       <td> 6000원 </td>
+   </tr>
+  </table>
+
+ </div>
+
+<!-- 회원가입 폼~~~~ --!>
+ <div id="join">
+  <div class="index"> < < 회원가입 > > </div>
+ <details>
+  <summary> 회원가입 하려면 클릭하세요 </summary>
+
+ <span id="join_span">*표시는 필수 입력 사항입니다.</span>
+ <table class="table_join" align="center">
+   <tr class="tr_join">
+     <td class="left"> * id </td>
+     <td class="right"> <input type="text" placeholder="아이디 입력" maxlength=10 required="required" autofocus="autofocus> <button type="submit" >중복확인</button> <span class="explain"> *최대 10자</td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left">* password </td>
+     <td class="right"> <input type="password" placeholder="비밀번호 입력" maxlength=20 required="required"> <span class="explain"> *최대 20자 </td>
+   </tr>
+  <tr class="tr_join">
+     <td class="left">* password 확인</td>
+     <td class="right"> <input type="password" placeholder="비밀번호 확인" maxlength=20 required="required"> <span class="explain"> *최대 20자  </td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left">* 이름 </td>
+     <td class="right"> <input type="text" placeholder="이름입력" required="required"> </td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left"> 생년월일 </td>
+     <td class="right"> <input type="date"> </td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left">* 핸드폰번호 </td>
+     <td class="right"> <input type="tel" placeholder="핸드폰 번호 입력" required="required"> </td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left">* email </td>
+     <td class="right"> <input type="email" placeholder="이메일 입력"  required="required"> @ 
+          <select>
+              <option> naver.com</option> 
+              <option> daum.net</option> 
+              <option> gmail.com</option> 
+          </select>
+      </td>
+   </tr>
+   <tr class="tr_join">
+     <td colspan="2">* 할인관련 마트 소식을 email로 받으시겠습니까? <input type="radio" name="yesorno"  required="required"> Yes <input type="radio" name="yesorno"  required="required"> No </td>
+   </tr>
+   <tr class="tr_join">
+     <td class="left"> 회원약관 </td>
+     <td class="right" id="scroll" height=100%> 회원약관 보여줌회원약관이란, 각종 사이트, 회원, 카드, 보험 등을 가입하기 위하여 사용되는 약관이다. 회원약관에는 계약의 내용과 개인 정보 보호 등을 상세히 기재하여야 하며, 서비스 이용, 정보사용 범위 등을 구체적으로 명시하여야 한다.
+
+고객과 기업 간의 피해가 가지 않도록 계약 해지 및 손해배상 등에 대해서는 반드시 기재하여야 하며, 회원약관 변경 시 고객에게 다시 인지시켜야 한다.
+[네이버 지식백과] 회원약관 [會員約款, membership clause] (비즈폼 서식사전, 비즈폼)회원약관이란, 각종 사이트, 회원, 카드, 보험 등을 가입하기 위하여 사용되는 약관이다. 회원약관에는 계약의 내용과 개인 정보 보호 등을 상세히 기재하여야 하며, 서비스 이용, 정보사용 범위 등을 구체적으로 명시하여야 한다.
+
+고객과 기업 간의 피해가 가지 않도록 계약 해지 및 손해배상 등에 대해서는 반드시 기재하여야 하며, 회원약관 변경 시 고객에게 다시 인지시켜야 한다.
+
+회원약관 보여줌회원약관이란, 각종 사이트, 회원, 카드, 보험 등을 가입하기 위하여 사용되는 약관이다. 회원약관에는 계약의 내용과 개인 정보 보호 등을 상세히 기재하여야 하며, 서비스 이용, 정보사용 범위 등을 구체적으로 명시하여야 한다.
+
+고객과 기업 간의 피해가 가지 않도록 계약 해지 및 손해배상 등에 대해서는 반드시 기재하여야 하며, 회원약관 변경 시 고객에게 다시 인지시켜야 한다.
+[네이버 지식백과] 회원약관 [會員約款, membership clause] (비즈폼 서식사전, 비즈폼) </td>
+   </tr>
+   <tr class="tr_join">
+     <td colspan="2"> * 동의 하시겠습니까?  <input type="checkbox"  required="required"> 네</td>
+   </tr>
+   <tr class="tr_join">
+     <td colspan="2"> <button type="submit" class="but_sty"> Submit </button> <button type="reset" class="but_sty"> Reset </button> </td>
+   </tr>
+ </table>
+
+
+ </details>
+ </div>
+
+ <div id="direction">
+  <div class="index"> < < 오시는 길 > > </div>
+  <img src="map.png" width=700px title="Fresh Mart" alt="Fresh Mart"> </br>
+  <a class="more_map" href="http://map.naver.com/?dlevel=12&pinType=site&pinId=11591514&x=126.9953410&y=37.6121866&enc=b64" target="_blank" >▶더 자세한 지도를 원하시면 클릭하세요. </a>
+ </div>
+
+ <div class= "top">
+ <a class="map" href="#mini_nav"><img src="up.png" width=40px height= 50px> </img> </a>
+ </div>
+
+ </div>
 </body>
 </html>
