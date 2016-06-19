@@ -1,4 +1,26 @@
++projcet2
 
+jquery input value값 가져오기 참조
+http://blog.naver.com/artfile/130109252173
+
+alert 창 참조
+http://lilac0503.blog.me/220357574709
+
+scroll top 참조
+http://okkks.tistory.com/1066
+
+check box 유무 확인방법 참조
+http://blog.naver.com/comnics/220038742636
+
+javascript confirm창 참고
+http://daphneodora.co19.kr/220453994662
+
+javascript 화면복사 참고
+http://hanna7582.blog.me/220738589319
+
+
+
+-project1
 이미지 출처 (구글검색):
 www.google.co.kr
 상품과 지도 외에 이미지는 만들었습니다.
@@ -14,4 +36,6 @@ http://terms.naver.com/entry.nhn?docId=2356115&cid=51373&categoryId=51373
 
 국민대 지도 출처(네이버지도):
 http://map.naver.com/?dlevel=12&pinType=site&pinId=11591514&x=126.9953410&y=37.6121866&enc=b64
+
+
 

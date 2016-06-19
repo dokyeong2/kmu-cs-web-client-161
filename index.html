@@ -2,15 +2,16 @@
 <html>
 <head>
  <title><FRESH MART> 에 오신걸 환영합니다!</title>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
  <ul id="mini_nav">
-   <li> 로그인 |</li>
-   <li> 회원가입 |</li>
-   <li> 장바구니 |</li>
-   <li> 주문배송조회 |</li>
-   <li> 고객센터</li>
+   <li class = 'mini'> 로그인 |</li>
+   <li class = 'mini'> 회원가입 |</li>
+   <li class = 'mini'> 장바구니 |</li>
+   <li class = 'mini'> 주문배송조회 |</li>
+   <li class = 'mini'> 고객센터</li>
  </ul>
  <div class="body">
 
@@ -24,6 +25,14 @@
     <li><a href="#join">회원가입</a></li>
     <li><a href="#direction">오시는길</a></li>
   </ul>
+
+ <div id = "ad">
+   <div class="index"> < < 광고 > > </div>
+   <img src = "ad.jpg">
+   <button id ="end_ad" onclick="hide_ad()">다시보지 않기</button>
+  </div>
+
+
  <div id="hot">
   <div class="index"> < < 지금 세일중인 상품 > > </div>
   <table class="table_hot" align="center">
@@ -112,14 +121,15 @@
 <!-- 회원가입 폼~~~~ --!>
  <div id="join">
   <div class="index"> < < 회원가입 > > </div>
- <details>
-  <summary> 회원가입 하려면 클릭하세요 </summary>
+
+  <button onclick="join_click()"> 회원가입 하려면 클릭하세요 </button>
+ <div id = "joined">
 
  <span id="join_span">*표시는 필수 입력 사항입니다.</span>
  <table class="table_join" align="center">
    <tr class="tr_join">
      <td class="left"> * id </td>
-     <td class="right"> <input type="text" placeholder="아이디 입력" maxlength=10 required="required" autofocus="autofocus> <button type="submit" >중복확인</button> <span class="explain"> *최대 10자</td>
+     <td class="right"> <input id ="idnow" type="text" placeholder="아이디 입력" maxlength=10 required="required" autofocus="autofocus> <button type="submit" >중복확인</button> <span class="explain"> *최대 10자</td>
    </tr>
    <tr class="tr_join">
      <td class="left">* password </td>
@@ -169,15 +179,15 @@
 [네이버 지식백과] 회원약관 [會員約款, membership clause] (비즈폼 서식사전, 비즈폼) </td>
    </tr>
    <tr class="tr_join">
-     <td colspan="2"> * 동의 하시겠습니까?  <input type="checkbox"  required="required"> 네</td>
+     <td colspan="2"> * 동의 하시겠습니까?  <input name ="n_check" type="checkbox" required="required"> 네</td>
    </tr>
    <tr class="tr_join">
-     <td colspan="2"> <button type="submit" class="but_sty"> Submit </button> <button type="reset" class="but_sty"> Reset </button> </td>
+     <td colspan="2"> <button id ="sub_bt" type="submit" class="but_sty"> Submit </button> <button id="res_bt" type="reset" class="but_sty"> Reset </button> </td>
    </tr>
  </table>
 
+ </div>
 
- </details>
  </div>
 
  <div id="direction">
@@ -187,9 +197,11 @@
  </div>
 
  <div class= "top">
- <a class="map" href="#mini_nav"><img src="up.png" width=40px height= 50px> </img> </a>
+ <a class="map" ><img src="up.png" width=40px height= 50px> </img> </a>
  </div>
 
  </div>
+
+ <script type="text/javascript" src="example.js"></script>
 </body>
 </html>

@@ -51,6 +51,10 @@
  font-weight: bold;
 }
 
+/*광고*/
+#ad{
+ display:none;
+}
 
 
 /*홈페이지 index */
@@ -87,6 +91,10 @@ div {
 
 
 /*회원가입 form */
+#joined{
+ display:none;
+}
+
 .table_join{
  border: 1px solid black;
  width: 600px;
